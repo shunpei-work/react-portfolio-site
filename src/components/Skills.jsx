@@ -17,6 +17,7 @@ export const Skills = () => {
                         fetchRequestState === requestStates.loading && (
                             <p className="description">取得中...</p>
                         )
+                        
                     }
                     {
                         fetchRequestState === requestStates.success && (
