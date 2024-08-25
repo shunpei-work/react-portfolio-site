@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {FaBeer} from 'react-icons/fa';
+/* import {FaBeer} from 'react-icons/fa'; */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,11 +12,11 @@ root.render(
   </React.StrictMode>
 );
 
-class Question extends React.Component {
+/* class Question extends React.Component {
   render(){
     return <h3>Lets go for a<FaBeer /></h3>
   }
-}
+} */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
